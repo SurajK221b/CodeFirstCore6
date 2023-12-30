@@ -23,6 +23,7 @@ namespace CodeFirstCore6.Models
 
         [Column("Gender", TypeName = "varchar(10)")]
         public string Gender { get; set; }
+
         [Column("Department", TypeName = "varchar(50)")]
         [Required]
         public string Department { get; set; }
