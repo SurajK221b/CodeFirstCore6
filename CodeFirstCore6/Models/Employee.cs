@@ -8,8 +8,7 @@ namespace CodeFirstCore6.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Column("EmployeeID",TypeName = "varchar(20)")]
+        [Column("EmployeeID", TypeName = "varchar(20)")]
         [Required]
         public string EmpID { get; set; }
 
@@ -26,6 +25,6 @@ namespace CodeFirstCore6.Models
         public string Gender { get; set; }
         [Column("Department", TypeName = "varchar(50)")]
         [Required]
-        public string Department { get; set; }  
+        public string Department { get; set; }
     }
 }
